@@ -2,7 +2,7 @@
 
 Testing container startup times on Kubernetes
 
-We use a custom version of [podspeed](https://github.com/markusthoemmes/podspeed) to do our benchmarking. 
+We use a custom version of [podspeed](https://github.com/psschwei/podspeed) to do our benchmarking. 
 
 ## Steps
 
