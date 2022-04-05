@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: test
+spec:
+  containers:
+  - name: test
+    image: k8s.gcr.io/busybox@sha256:d8d3bc2c183ed2f9f10e7258f84971202325ee6011ba137112e01e30f206de67
+    #imagePullPolicy: Never
+    args:
+    - /bin/sh
+    - -c
+    - sleep 1; touch /tmp/healthy; sleep 5
